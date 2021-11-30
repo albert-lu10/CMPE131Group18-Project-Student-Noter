@@ -1,6 +1,8 @@
 # CMPE131Group18-Project-Student-Noter
 CMPE 131 Fall 2021 Group 18
 
+Professor: Hungwen Li
+
 Project Name: Student Noter
 
 Names: Albert Lu, Kha Nguyen, Le Pham
