@@ -1,5 +1,5 @@
 # CMPE131Group18-Project-Student-Noter
-CMPE 131 Group 18
+CMPE 131 Fall 2021 Group 18
 
 Project Name: Student Noter
 
