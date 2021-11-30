@@ -6,7 +6,7 @@ import TitleHeader from '../components/TitleHeader';
 
 const DailyPage = (props) => {
     const current = new Date();
-    const currentDate = current.getFullYear() + "-" + (current.getMonth() + 1) + "-" + current.getDate();
+    const currentDate = (current.getMonth() + 1) + "/" + current.getDate() + "/" + current.getFullYear();
     console.log(currentDate);
     return (
         <div>
