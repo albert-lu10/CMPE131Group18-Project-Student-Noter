@@ -14,4 +14,5 @@ To run the backend:
 1. Make sure Python is installed.
 2. Download the backend folder.
 3. Extract to a different folder.
-4. Run "python manage.py runserver".
+4. Run "pip install -r requirements.txt"
+5. Run "python manage.py runserver".
