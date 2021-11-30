@@ -1,5 +1,7 @@
 # CMPE131Group18-Project-Student-Noter
-CMPE 131 Group 18 - Project Name: Student Noter
+CMPE 131 Group 18
+Project Name: Student Noter
+Names: Albert Lu, Kha Nguyen, Le Pham
 
 To run the frontend:
 1. Make sure node.js is installed.
