@@ -7,7 +7,7 @@ To run the frontend:
 1. Make sure node.js is installed.
 2. Download the frontend folder.
 3. Extract to a different folder.
-4. Run "npm install".
+4. Run "npm install" where the "package.json" file is.
 5. Run "npm start".
 
 To run the backend:
