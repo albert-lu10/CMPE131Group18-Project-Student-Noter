@@ -1,0 +1,14 @@
+.quickEditInput {
+    border: none;
+    background-color: inherit;
+    outline:none;
+    display:inline-block;
+    width:55em;
+    max-height: 3em;
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+/* .quickEditInput::-webkit-scrollbar{
+    display: none;
+} */

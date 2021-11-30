@@ -1,0 +1,19 @@
+.search-bar{
+    margin-left:20em;
+}
+.search-box{
+    margin-right:0.3em;
+    border-radius: 6%/50%;
+    text-indent: 0.6em;
+    width: 15em;
+}
+#title{
+    margin-top: 1em;
+}
+::placeholder {
+    text-indent: 0.6em;
+}
+.no-task{
+    padding-top: 2em;
+    text-align: center;
+}

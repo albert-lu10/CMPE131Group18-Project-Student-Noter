@@ -1,0 +1,87 @@
+
+/* .Add-category{
+    margin-right: 2em;
+} */
+.Add-category img{
+    width:1.40em;	
+    height:1.40em;
+    user-select: none;
+
+}
+.Add-category #cat{
+    /* padding:0; */
+    border-radius: 50%;
+    padding-top: 0;
+    margin-right: auto;
+    padding-bottom:3px;
+    background-color: black;
+    /* padding-bottom:3px; */
+    /* padding:0;
+    background-color: white; */
+}
+
+
+#addFolIcon{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+.Add-category #cat:hover{
+    transform: scale(1.05);
+    box-shadow: 0 2px 7px 0 #666;
+
+}
+
+.add-button{
+    margin-left:2em;
+    margin-bottom:0.3em;
+    background-color: #099;
+    color: white;
+    text-decoration: none;
+    border-radius: 60px;
+    height: 2em;
+    display: inline-flex;
+    align-items: center;
+    overflow:hidden;
+    width: auto;
+    max-width: 2em; /** I'm animating max-width because width needs to be auto, and auto can't be animated **/
+    -webkit-transition: max-width 0.5s;
+    transition: max-width 0.5s;
+    /* margin-right: auto; */
+    border:none;
+}
+.add-button:hover{
+    transform: scale(1.05);
+    max-width: 300px;
+}
+
+.addIcon{
+    font-family: "Font Awesome 5 Free";
+    font-size: 21px;
+    margin-right: 15px;
+    padding: 0px;
+    padding-left:0.2em;
+    padding-bottom:0;
+    display: flex;
+     align-items: center;
+    text-align:center; 
+    /* width: 50%; */
+}
+.text-task {
+    white-space: nowrap;
+    padding-right: 0.9em;
+    padding-bottom:0.1em;
+}
+
+/* .line{
+    color: '#000000';
+    background-Color: '#000000';
+    height: 0.5;
+    border-Color : '#000000';
+}
+.line-box{
+    margin-top:0;
+    margin-left:10em;
+    margin-right:10em;
+} */

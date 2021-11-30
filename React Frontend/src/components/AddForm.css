@@ -1,0 +1,96 @@
+.alignment {
+    text-align: left;
+  }
+  
+.nomargin {
+margin: 0;
+padding-bottom: 0.25rem; 
+}
+
+.ta {
+border: black;
+border-radius: 5px;
+border-style: solid;
+border-width: 1px;
+width: auto;
+height: auto;
+max-height: 5rem;
+overflow: auto;
+padding: 0.4rem;
+}
+
+.tadescription {
+border: black;
+border-radius: 5px;
+border-style: solid;
+border-width: 1px;
+width: auto;
+height: auto;
+max-height: 5rem;
+overflow: auto;
+padding: 0.4rem;
+}
+
+.titleaddform {
+font-size: 30px;
+margin: 0;
+}
+
+.addformbuttoncontainer {
+width: 100%;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+.addformbutton {
+width: 100%;
+font-size: 20px;
+font-weight: 500;
+color: white;
+background-color: #0DAC50;
+padding: 0.75rem;
+border: 1px black;
+border-radius: 0.50rem;
+}
+
+.addformbutton:hover {
+width: 100%;
+font-size: 20px;
+color: white;
+background-color: #1DBC60;
+padding: 0.75rem;
+border: 1px black;
+border-radius: 0.50rem;
+}
+
+.addformbutton:active {
+width: 100%;
+font-size: 20px;
+color: white;
+background-color: #0DAC50;
+padding: 0.75rem;
+border: 1px black;
+border-radius: 0.50rem;
+}
+
+.addformhr {
+    border: none;
+    height: 1px;
+    color: black;
+    background-color: black;
+}
+
+.item {
+padding-bottom: 0.5rem;
+}
+
+.sameLine {
+  display: flex;
+  justify-content: space-between;
+}
+
+.closeButton {
+  border: none;
+  background-color: white;
+  font-size: 30px;
+}

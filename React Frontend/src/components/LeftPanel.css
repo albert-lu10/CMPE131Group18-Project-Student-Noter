@@ -1,0 +1,60 @@
+.panel .items{
+    list-style-type: none;
+    border: none;
+    color:black;
+    padding-right: 3em;
+    margin-top:0.5em;
+    padding-left: 1em;
+    padding-top:0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 15px/15px;
+    user-select: none;
+
+}
+.panel .items:hover{
+    background-color: rgb(236, 235, 235);
+    color: rgb(110, 107, 14);
+}
+.link{
+    text-decoration: none;
+    display: flex;
+    min-width: 0;
+  
+}
+.icon{
+    color:black;
+    margin-bottom: 0.25em;
+    margin-right: 1em;
+}
+
+.panel .item{
+    list-style-type: none;
+    padding-left: 1em;
+
+}
+.panel #id{
+    list-style-type: none;
+}
+.panel{ 
+    position: absolute;
+    padding-left: 3.3em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+
+}
+.wrap{
+    margin-left:4em;
+    position: fixed;
+    white-space:nowrap;
+}
+
+.logout{
+    /* margin-top: 2em; */
+    list-style-type: none;
+}
+.logoutBut{
+    margin-top:2em;
+    padding-top: 0.2;
+    padding-bottom: 0.2;
+    width:100%;
+}
