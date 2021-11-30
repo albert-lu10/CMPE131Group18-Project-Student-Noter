@@ -124,7 +124,9 @@ const CategoryForm = (props) => {
                         <div key={"categoryitemblock_" + key} className="categoryitem">
                             <p className="nomargin" id={"categoryitem_" + key}> <b> {props.categories[key].name} </b> </p>
                             {/* Delete category -> This component is a view. It should not process data. Ask model to delete category. */}
-                            <button className="categorydeletebutton" id={"dcategoryitem_" + key} onClick={e => deleteCategory(e.target.id, props.categories[key].name)}> Delete </button>
+                            {key == 0 ? <button style={{display: "none"}} className="categorydeletebutton" id={"dcategoryitem_" + key} onClick={e => deleteCategory(e.target.id, props.categories[key].name)}> Delete </button> :
+                            <button className="categorydeletebutton" id={"dcategoryitem_" + key} onClick={e => deleteCategory(e.target.id, props.categories[key].name)}> Delete </button>}
+                            
                         </div>
                     ))}
                 </div>
